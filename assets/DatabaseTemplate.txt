@@ -1,0 +1,32 @@
+package <PACKAGE>;
+
+import uncastled.model.*;
+import haxe.Json;
+
+import haxe.EnumTools;
+
+class <CLASSNAME> extends CastleDbDatabase {
+
+    <SHEETS>
+
+    public function new() {}
+
+    public static function load(fileContents: String) {
+        var dbObject = Json.parse(fileContents);
+        for (sheetObject in (cast dbObject.sheets: Array<Dynamic>)) {
+            <SHEET_PARSE_LOGIC>
+        }
+        runPostLoad();
+    }
+
+    static var callbacks: Array<() -> Void> = [];
+    public static function addPostLoad(func: () -> Void) {
+        callbacks.push(func);
+    }
+
+    public static function runPostLoad() {
+        for(eachCallback in callbacks){
+            eachCallback();
+        }
+    }
+}

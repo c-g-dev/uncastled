@@ -1,0 +1,91 @@
+{
+	"sheets": [
+		{
+			"name": "TestSheet",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "TableId",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "Data"
+				},
+				{
+					"typeStr": "8",
+					"name": "ExtraData"
+				},
+				{
+					"typeStr": "7",
+					"name": "Image",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"TableId": "Steve",
+					"Image": "f045a3389a77990e3f56ed122f63a24a",
+					"Data": "Don't give them what they tell you they want.",
+					"ExtraData": [
+						{
+							"Seller": "1000 Book Street"
+						}
+					]
+				},
+				{
+					"TableId": "Paul",
+					"Image": "5de9bceca2c30ccc1aa3f241140c429e",
+					"Data": "They will know us by our love.",
+					"ExtraData": [
+						{
+							"Seller": "810 Page Pkway"
+						}
+					]
+				},
+				{
+					"TableId": "Martin",
+					"Image": "574dc17ac4afe506617b85f625dc5853",
+					"Data": "It is not enough to refrain from coveting your neighbor's wife: you are commanded to do all in your power to actively encourage and protect the marriages of others.",
+					"ExtraData": [
+						{
+							"Seller": "1000 Book Street"
+						}
+					]
+				},
+				{
+					"TableId": "Norm",
+					"Image": "16cfe449c9bb682fbcb240f835d6f35f",
+					"Data": "I think clever people think that poor people are stupid.",
+					"ExtraData": [
+						{
+							"Seller": "1000 Book Street"
+						},
+						{
+							"Seller": "810 Page Pkway"
+						}
+					]
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "TestSheet@ExtraData",
+			"props": {
+				"hide": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "1",
+					"name": "Seller",
+					"display": null
+				}
+			]
+		}
+	],
+	"customTypes": [],
+	"compress": false
+}

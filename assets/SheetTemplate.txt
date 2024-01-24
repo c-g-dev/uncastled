@@ -1,0 +1,16 @@
+package <PACKAGE>;
+
+import uncastled.model.*;
+
+class <CLASSNAME> extends CastleDbSheet<%ROWTYPE%> {
+
+    public var rows: Array<%ROWTYPE%> = [];
+    <OPTIONAL_ROWMAP_DEFINITION>
+
+    public function new() {}
+    public function addRow(row: %ROWTYPE%): Void {
+        rows.push(row);
+        <OPTIONAL_ROWMAP_PUSH>
+    }
+
+}

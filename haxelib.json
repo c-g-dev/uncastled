@@ -1,0 +1,19 @@
+{
+    "name": "uncastled",
+    "description": "",
+    "license": "MIT",
+    "url" : "https://github.com/cardgdev/uncastled",
+    "tags": [
+      "db", "utility", "heaps"
+    ],
+    "classPath": "src",
+    "contributors": [
+      "cgdev"
+    ],
+    "releasenote": "Initial release",
+    "version": "0.0.1",
+    "dependencies": {
+      "heaps": "",
+      "formatter": ""
+    }
+  }

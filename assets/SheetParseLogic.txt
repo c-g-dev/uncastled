@@ -1,0 +1,9 @@
+if(sheetObject.name == "<sheet_name>"){
+    var sheet = new <sheet_name>();
+    for(eachRow in (cast sheetObject.lines: Array<Dynamic>)){
+        var row = new <row_name>();
+        <FIELD_ASSIGNMENT>
+        sheet.addRow(row);
+    }
+    <sheet_name> = sheet;
+}

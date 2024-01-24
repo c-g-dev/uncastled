@@ -1,0 +1,5 @@
+package <PACKAGE>;
+
+enum <SHEETNAME>_Id {
+    <ENUM_DEFINITIONS>
+}

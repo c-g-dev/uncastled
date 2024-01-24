@@ -1,0 +1,12 @@
+package <PACKAGE>;
+
+import uncastled.model.*;
+
+class <CLASSNAME> extends CastleDbRow {
+
+    <FIELDS>
+
+    public function new() {}
+
+    <GET_UUID>
+}
