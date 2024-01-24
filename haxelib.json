@@ -1,6 +1,6 @@
 {
     "name": "uncastled",
-    "description": "",
+    "description": "Replace CastleDB macros with a code generator",
     "license": "MIT",
     "url" : "https://github.com/cardgdev/uncastled",
     "tags": [
