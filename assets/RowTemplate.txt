@@ -2,7 +2,7 @@ package <PACKAGE>;
 
 import uncastled.model.*;
 
-class <CLASSNAME> extends CastleDbRow {
+class <CLASSNAME> {
 
     <FIELDS>
 

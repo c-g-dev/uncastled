@@ -5,7 +5,7 @@ import haxe.Json;
 
 import haxe.EnumTools;
 
-class <CLASSNAME> extends CastleDbDatabase {
+class <CLASSNAME> {
 
     <SHEETS>
 

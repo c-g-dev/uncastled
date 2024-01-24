@@ -2,7 +2,7 @@ package output;
 
 import uncastled.model.*;
 
-class TestSheet extends CastleDbSheet<TestSheet_Row> {
+class TestSheet {
 	public var rows:Array<TestSheet_Row> = [];
 	public var rowsById:Map<TestSheet_RowUUID, TestSheet_Row> = [];
 

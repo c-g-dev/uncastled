@@ -4,7 +4,7 @@ import uncastled.model.*;
 import haxe.Json;
 import haxe.EnumTools;
 
-class Test extends CastleDbDatabase {
+class Test {
 	public static var TestSheet = new TestSheet();
 
 	public function new() {}
